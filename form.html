@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="new.css">
+    </head>
+    <body>
+        <div class="container">
+            <form id="form1">
+                <h2>Basics</h2>
+                <input type="text" placeholder="Email" id="email" class="input">
+                <p></p>
+                <input type="password" placeholder="password" id="npass"class="input">
+                <p></p>
+                <input type="password" placeholder="confirmpassword" id="cpass" class="input">
+                <p></p>
+                <input type="text" placeholder="Firstname" id="fname" class="input">
+                <p></p>
+                <input type="text" placeholder="Lastname">
+                <div class="btn-box">
+                    <button type="button" id="next1">Next</button>
+                </div>
+            </form>
+            <form id="form2">
+                <h2>Others</h2>
+                <label>DOB</label>
+                <input type="date" placeholder="DOB" id="dob" class="input2">
+                <p></p>
+                
+                <label for="gender"> Gender </label>
+                <div class="ask">
+                    <input type="radio" value="Male" name="gender" id="gender"> Male 
+                    <input type="radio" value="Female" name="gender" id="gender"> Female 
+                    
+                    <p></p>
+                </div>
+                <label>Address</label>
+                <textarea name="address" cols="35" rows="4"></textarea>
+                <label for="state" name="state" value="">State</label>
+                <div class="name">
+               
+                <select id="state" class="input2">
+                <option value="Choose">Choose</option>
+                <option value="Tamilnadu" id="Tamilnadu">Tamilnadu</option>
+                <option value="Karnataka" id="Karnataka">Karnataka</option>
+                <option value="Gujarat" id="Gujarat">Gujarat</option>
+            
+            </select>
+            <p></p>
+        </div>
+                <input type="text" placeholder="Mobile" id="mobile" class="input2">
+                <p></p>
+                <div class="btn-box">
+                    <button type="button" id="back1">Back</button>
+                    <button type="button" id="next2">Next</button>
+                </div>
+            </form>
+            <form id="form3">
+                <h2>Work</h2>
+                <label>
+                    Occupation
+                    </label>
+                    <div class="ask">
+                    <input type="radio" value="employee" name="employee"> Employee 
+                    <input type="radio" value="intern" name="intern"> Intern <br>
+                </div>
+                    <label>Experience</label>
+                <input type="text" placeholder="overall Experience" class="input3">
+                <div class="btn-box">
+                    <button type="button" id="back2">Back</button>
+                    <button type="button" id="next3">Next</button>
+                </div>
+            </form>
+            <form id="form4">
+                <h2>Education</h2>
+                <label>Education</label>
+                <select id="education" class="input4">
+                    <option value="Choose">Choose</option>
+                    <option value="pg" id="pg">PG</option>
+                    <option value="ug" id="pg">UG</option>
+                    <option value="hsc" id="pg">HSC</option>
+                </select>
+                <p></p>
+                <label>DOJ</label>
+                <input type="month" placeholder="yearofpassing" class="input4">
+                <p></p>
+                <div class="btn-box">
+                    <button type="button" id="back3">Back</button>
+                    <button type="button" id="next4">Next</button>
+                </div>
+            </form>
+            <form id="form5" action="message.html" method="post">
+                <h2>Team</h2> 
+                <label>Practice</label>
+                <select id="practice">
+                <option value="Choose">Choose</option>
+                <option value="lamp">Lamp</option>
+                <option value="bfs">BFS</option>
+                <option value="oracle">Oracle</option>
+            </select>
+            <p></p>
+            <div>
+                <input type="checkbox" class="checkbox" name="checkbox" value="checkbox" id="check">
+                <p></p>
+                <span id="text" style="display:inline-block">I accept all terms and conditions</span>
+            </div>
+                <div class="btn-box">
+                    <button type="button" id="back4">Back</button>
+                   <button type="button" id="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript" src="newvalidation.js"></script>
+    
+    </body>
+
+</html>
